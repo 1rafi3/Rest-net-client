@@ -35,9 +35,9 @@ export default function Footer() {
             </p>
             <div style={{ display: "flex", gap: "12px" }}>
               {[
-                { Icon: Github,   href: "https://github.com" },
+                { Icon: Github,   href: "https://github.com/1rafi3" },
                 { Icon: Twitter,  href: "https://twitter.com" },
-                { Icon: Linkedin, href: "https://linkedin.com" },
+                { Icon: Linkedin, href: "https://www.linkedin.com/in/rafiwolkarimrafi/" },
               ].map(({ Icon, href }) => (
                 <a key={href} href={href} target="_blank" rel="noopener noreferrer"
                   style={{ width: "32px", height: "32px", borderRadius: "8px", border: "1px solid #24324f", display: "flex", alignItems: "center", justifyContent: "center", color: "#475569", transition: "all 0.2s ease" }}
@@ -97,7 +97,7 @@ export default function Footer() {
               </div>
               <div style={{ display: "flex", gap: "10px", alignItems: "center" }}>
                 <Mail style={{ width: "15px", height: "15px", color: "#6366f1", flexShrink: 0 }} />
-                <a href="mailto:support@rentnest.com" style={{ fontSize: "0.8rem", color: "#64748b", textDecoration: "none" }}>support@rentnest.com</a>
+                <a href="mailto:rwolkorimrafi@gmail.com" style={{ fontSize: "0.8rem", color: "#64748b", textDecoration: "none" }}>rwolkorimrafi@gmail.com</a>
               </div>
             </div>
           </div>
